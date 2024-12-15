@@ -1,0 +1,11 @@
+package wasmcloud:jazz;
+
+interface runner {
+  run-script: func(script: string) -> result<string, string>;
+}
+
+/// An example world for the component to target.
+world sandbox {
+  export runner;
+  export wasi:cli/run@0.2.0;
+}
