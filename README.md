@@ -1,4 +1,4 @@
-Sandbox javascript inside components.
+A Web Assembly Components that can run sandboxed javascript.
 
 Main idea is to load javascript functions from wasi blob/kv.
 
